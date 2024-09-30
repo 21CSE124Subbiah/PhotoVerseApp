@@ -63,8 +63,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         // Clear the input fields
-        emailtext.setText("");
-        passwordtext.setText("");
+        emailtext.setText(" ");
+        passwordtext.setText(" ");
     }
 
     private void loginUser(String email,String password){
